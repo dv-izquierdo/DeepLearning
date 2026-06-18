@@ -4,7 +4,7 @@ Análisis de sentimiento y modelado de topics sobre reseñas de Trustpilot para 
 
 ## Descripción del proyecto
 
-El proyecto parte de un dataset público de reseñas de Trustpilot y construye un pipeline completo de NLP para responder a tres preguntas: ¿qué opinan los usuarios de Dyson en comparación con el resto de marcas del sector?, ¿de qué hablan esas reseñas (servicio o producto)? y ¿en qué combinación de ambas dimensiones se concentra la brecha de percepción? El resultado es un notebook reproducible y una presentación ejecutiva con los hallazgos y las recomendaciones derivadas.
+El proyecto parte de un dataset de reseñas extraidas de Trustpilot y construye un pipeline completo de NLP para responder a tres preguntas: ¿qué opinan los usuarios de Dyson en comparación con el resto de marcas del sector?, ¿de qué hablan esas reseñas (servicio o producto)? y ¿en qué combinación de ambas dimensiones se concentra la brecha de percepción? El resultado es un notebook reproducible y una presentación ejecutiva con los hallazgos y las recomendaciones derivadas.
 
 ## Objetivos
 
@@ -17,7 +17,7 @@ El proyecto parte de un dataset público de reseñas de Trustpilot y construye u
 
 ## Datos
 
-- **Fuente:** [Trustpilot Reviews dataset](https://www.trustpilot.com/) (CSV con 123.181 reseñas de múltiples sectores y empresas).
+- **Fuente:** [Trustpilot](https://www.trustpilot.com/) (CSV con 123.181 reseñas de múltiples sectores y empresas).
 - **Filtro aplicado:** sector `Electronics & Technology` → 5.596 reseñas, de las cuales ~100 son de Dyson y ~5.496 del resto de la competencia.
 - El fichero `trustpilot-reviews-123k.csv` no se incluye en este repositorio por su tamaño; debe colocarse en la raíz del proyecto (o ajustar la ruta en el notebook) antes de ejecutar el análisis.
 
@@ -105,4 +105,4 @@ Las recomendaciones completas, con sus objetivos cuantificados, están en la úl
 
 ## Licencia
 
-Proyecto con fines educativos y de portfolio. Añade aquí la licencia que prefieras (por ejemplo, MIT) si vas a publicar este repositorio como código abierto.
+Proyecto con fines educativos y de portfolio.
