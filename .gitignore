@@ -5,7 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
-*.pptx
+
+# Files
+
 *.xlsx
 *.csv
 
